@@ -35,13 +35,13 @@ int main () {
     
 
     // saida de dados
-printf("\n--- carta da cidade 01 ---\n");
+printf("\n--- carta 01 ---\n");
 
     printf("código:%s\n",codigo);
 
     printf("nome:%s\n",nome);
 
-    printf("populção:%d habitantes\n",populaçao);
+    printf("populção:%d de habitantes\n",populaçao);
 
      printf("área : %.2f km \n",area);
 
@@ -49,51 +49,51 @@ printf("\n--- carta da cidade 01 ---\n");
     
      printf("pontos turístíticos : %d \n",pontosturisticos);
 
-    
+    printf("\n----------------------\n");
    
    // carta 02
 
-    char codigo[50];
+    char codigo2[50];
     char nome2[50];
     int populaçao2;
     float area2;
-    float pib ;
-    int pontosturisticos;
+    float pib2;
+    int pontosturisticos2;
     
     //entada de dados
     printf("qual o código da cidade ?: ");
-    scanf("%s",codigo);
+    scanf("%s",codigo2);
      
     printf("qual o nome da cidade ?: ");
-    scanf("%s",nome);
+    scanf("%s",nome2);
 
     printf("qual o tamanho da população: ");
-    scanf("%d", &populaçao);       
+    scanf("%d", &populaçao2);       
     
     printf("qual a área ??: ");
-    scanf("%f", &area);
+    scanf("%f", &area2);
     
     printf("qual o pib: ");
-    scanf("%f", &pib);
+    scanf("%f", &pib2);
 
     printf("qual a quantidade de pontos turístícos: ");
-    scanf("%d", &pontosturisticos);
+     scanf("%d", &pontosturisticos2);
     
 
     // saida de dados
-printf("\n--- carta da cidade 02 ---\n");
+printf("\n--- carta 02 ---\n");
 
     printf("código:%s\n",codigo);
 
     printf("nome:%s\n",nome);
 
-    printf("populção:%d habitantes\n",populaçao);
+    printf("populção:%d de habitantes\n",populaçao);
 
      printf("área : %.2f km \n",area);
 
      printf("pib : %.2f bilhões \n",pib);
     
-     printf("pontos turístíticos : %d \n",pontosturisticos);
+     printf("pontos turístíticos : %d \n ",pontosturisticos);
 
 
 
